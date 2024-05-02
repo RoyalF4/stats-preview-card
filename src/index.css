@@ -97,17 +97,21 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     width: 20rem;
-    padding: 1.5rem;
   }
 
   .card__stats-half {
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     gap: 1rem;
   }
 
   .card__img-half {
     width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .card-img {
+    border-radius: 0.5rem 0.5rem 0 0;
   }
 
   .card__heading {
