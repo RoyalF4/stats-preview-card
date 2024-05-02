@@ -23,7 +23,7 @@ function App() {
           <source
             className="card-img"
             srcSet="/images/image-header-desktop.jpg"
-            media="(min-width: 23.5rem)"
+            media="(min-width: 40rem)"
           />
           <img
             className="card-img"
