@@ -5,8 +5,8 @@ function App() {
     <main className="card">
       <div className="card__stats-half">
         <h1 className="card__heading">
-          Get <span className="highlight-purple">insights</span> that help your
-          business grow.
+          Get <span className="highlight-purple card__heading">insights</span>{' '}
+          that help your business grow.
         </h1>
         <p className="card__description">
           Discover the benefits of data analytics and make better decisions
@@ -21,10 +21,15 @@ function App() {
       <div className="card__img-half">
         <picture>
           <source
+            className="card-img"
             srcSet="/images/image-header-desktop.jpg"
             media="(min-width: 23.5rem)"
           />
-          <img src="/images/image-header-mobile.jpg" alt="" />
+          <img
+            className="card-img"
+            src="/images/image-header-mobile.jpg"
+            alt=""
+          />
         </picture>
       </div>
     </main>
