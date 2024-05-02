@@ -22,7 +22,7 @@ function App() {
         <picture>
           <source
             srcSet="/images/image-header-desktop.jpg"
-            media="(min-width: 40rem"
+            media="(min-width: 23.5rem)"
           />
           <img src="/images/image-header-mobile.jpg" alt="" />
         </picture>
