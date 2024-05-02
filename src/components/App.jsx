@@ -18,7 +18,15 @@ function App() {
           <Stat stat={12000000} label="queries" />
         </div>
       </div>
-      <div className="card__img-half"></div>
+      <div className="card__img-half">
+        <picture>
+          <source
+            srcSet="/images/image-header-desktop.jpg"
+            media="(min-width: 40rem"
+          />
+          <img src="/images/image-header-mobile.jpg" alt="" />
+        </picture>
+      </div>
     </main>
   );
 }
